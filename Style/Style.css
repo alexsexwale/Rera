@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-color: grey;
+	
+}
+
+/**************************************************/
+
+header .bord {
+	background: linear-gradient(to right, #f6df0a 20%, #e50381 20%, #fd8026 50%, #00a9a4 50%, #72b925 80%, #f6df0a 80%);
+  position: static;
+  content: '';
+  height: 5px;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+header .bord p{
+	visibility: hidden;
+}
+
+.topnav {
+	position: relative;
+	margin: 10px;
+	float: right;
+}
+	
+.topnav li{
+	display: inline;
+	padding: 5px;
+}
+
+.navigation{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	top: 45px;
+}
+
+.navigation img{
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav{
+	position: relative;
+	width: 100%;
+	left: 185px;
+	padding-top: 40px;
+}
+
+.navigation .nav ul {
+	position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav li a, .dropbtn {
+	position: relative;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	
+}
+
+.nav a{
+	padding: 10px;
+}
+
+.nav li a:hover, .dropdown:hover .dropbtn {
+	position: relative;
+    background-color: #e50381;
+	
+}
+
+ li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.nav .dropdown-content a:hover {background-color: #f1f1f1}
+
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/**************************************************/
+
+body{
+background-color: #f1f2ec;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2%;
+margin-top: 2%;
+width: 80%;
+
+}
+
+#content{
+	position: relative;
+	top:50px;
+}
+/**************************************************/
+
+
+/**************************************************/
+footer .bord {
+	background: linear-gradient(to right, #f6df0a 20%, #e50381 20%, #fd8026 50%, #00a9a4 50%, #72b925 80%, #f6df0a 80%);
+  position: static;
+  content: '';
+  height: 5px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+footer .bord p{
+	visibility: hidden;
+}
+
+
+/**************************************************/
