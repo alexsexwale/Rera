@@ -130,22 +130,8 @@ footer #footLogo img{
 	margin-left: 310px;
 	margin-right: auto;
 	top: 10px;
-	
 }
 
-footer img{
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	 -webkit-transition: all .6s ease;
-  /* Fade to color for Chrome and Safari */
-  -webkit-backface-visibility: hidden;
-}
-
-footer img:hover{
-	-webkit-filter: grayscale(0%);
-	filter: none;
-}
-	
 
 
 /**************************************************/
