@@ -2,7 +2,8 @@
 /* CSS Document */
 
 html{
-	background-color: grey;
+	background: URL('C:\Users\pc\Documents\Rera\Pictures\bkgd.PNG');
+	background-color: #b3ffe8;
 	
 }
 
@@ -71,16 +72,55 @@ header .navbar img{
 body{
 position: relative;
 background-color: #f1f2ec;
-left: 10%;
-right: 10%;
+font-family: Segoe UI;
+left: 5%;
+right: 5%;
 top: 10px;
-width: 80%;
+bottom: 10px;
+width: 90%;
+height: auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 #content{
 	position: relative;
+	padding:40px;
 	top:50px;
+	font-family: Segoe UI;
+    font-size: 14px;
+}
+
+#content h1{
+	position: relative;
+	font-family: Segoe UI;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+#paragraph1 {
+	background-color: #e9ecef;
+	position: relative;
+	width: 100%; 
+	height: auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#paragraph2 {
+	background-color: #e9ecef;
+	position: relative;
+	width: 100%; 
+	height: auto;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /**************************************************/
 
@@ -93,6 +133,7 @@ footer{
 	height: 100px;
 	background-color: black;
 	font-size: 12px;
+	
 }
 
 footer .bord {
@@ -115,6 +156,11 @@ footer p{
 	color: #999999;
 	top: 35px;
 	padding-left: 20px;
+}
+
+footer .icons{
+	position: relative;
+	padding-right: 15px;
 }
 
 footer .icons a{
@@ -142,7 +188,7 @@ footer .icons a img:hover{
 
 footer #footLogo img{
 	position: relative;
-	margin-left: 310px;
+	margin-left: 287px;
 	margin-right: auto;
 	top: 10px;
 }
