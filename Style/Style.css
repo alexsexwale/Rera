@@ -87,19 +87,51 @@ width: 80%;
 
 
 /**************************************************/
+
+footer{
+	position: static;
+	width: auto;
+	height: 100px;
+	background-color: black;
+	font-size: 12px;
+}
+
 footer .bord {
 	background: linear-gradient(to right, #f6df0a 20%, #e5007d 20%, #ff5000 50%, #00a9aa 50%, #76b82a 80%, #f6df0a 80%);
-  position: static;
+  position: relative;
   content: '';
   height: 5px;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: -20px;
 }
 
 footer .bord p{
 	visibility: hidden;
 }
+
+footer p{
+	position: relative;
+	float: left;
+	color: #999999;
+	top: 35px;
+	padding-left: 20px;
+}
+
+footer .icons a{
+	position: relative;
+	float: right;
+	bottom: 50px;
+	padding: 5px;
+}
+
+footer #footLogo img{
+	position: relative;
+	margin-left: 310px;
+	margin-right: auto;
+	top: 10px;
+}
+
 
 
 /**************************************************/
