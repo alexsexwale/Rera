@@ -76,7 +76,6 @@ font-family: Segoe UI;
 left: 5%;
 right: 5%;
 top: 10px;
-bottom: 10px;
 width: 90%;
 height: auto;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -86,7 +85,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 #content{
 	position: relative;
 	padding:40px;
+	padding-bottom: 60px;
 	top:50px;
+	height: auto;
 	font-family: Segoe UI;
     font-size: 14px;
 }
@@ -100,36 +101,94 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 }
 
-
-
-#paragraph1 {
+#content #paragraph1 {
 	background-color: #e9ecef;
 	position: relative;
-	width: 100%; 
+	width: 95%; 
 	height: auto;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#paragraph2 {
+#content #paragraph1 button{
+	position: relative;
+	left: 45%;
+	background-color: #00a9aa;
+	border-color: #00a9aa;
+}
+
+#content #paragraph2 {
 	background-color: #e9ecef;
 	position: relative;
-	width: 100%; 
+	width: 95%; 
+	height: auto;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content #paragraph2 button{
+	position: relative;
+	left: 45%;
+	background-color: #00a9aa;
+	border-color: #00a9aa;
+}
+
+body #content #paragraph3{
+background-color: #e9ecef;
+	position: relative;
+	width: 95%; 
 	height: auto;
 	margin-top: 20px;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#content #paragraph3 button{
+	position: relative;
+	left: 45%;
+	background-color: #00a9aa;
+	border-color: #00a9aa;
+}
+
+body #content #paragraph4{
+	position: relative;
+	float: left;
+	width: 45%;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 290px;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	border-left: thin solid #00a9aa;
+	border-right: thin inset #00a9aa;
+	
+}
+
+#paragraph4 button{
+	position: relative;
+	margin-left: 0px;
+	background-color: #00a9aa;
+	border-color: #00a9aa;
+}
+
 /**************************************************/
 
 
 /**************************************************/
 
 footer{
+	overflow: hidden;
 	position: static;
-	width: auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	height: 100px;
 	background-color: black;
 	font-size: 12px;
@@ -143,7 +202,7 @@ footer .bord {
   height: 5px;
   right: 0;
   left: 0;
-  bottom: -20px;
+  bottom: -15px;
 }
 
 footer .bord p{
