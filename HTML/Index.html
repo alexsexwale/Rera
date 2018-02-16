@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en">
-
+<html lang="en" style="background="C:\Users\pc\Documents\Rera-LS\Rera's\bkgd.PNG">
+<img src="C:\Users\pc\Documents\Rera-LS\Reras\bkgd.PNG" id = "bg" alt="facebook" width="1400" height="1080">
 <head>
  <!-- Required meta tags -->
 <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
@@ -9,26 +9,28 @@
 <title>Home Page</title>
 
 <!-- page css-->
-<link href="C:\Users\pc\Documents\Rera\Style\Style.css" rel="stylesheet" name="viewport" content="width=device-width, initial-scale=1" type="text/css" />
+<link href="C:\Users\pc\Documents\Rera\styling.css" rel="stylesheet" name="viewport" content="width=device-width, initial-scale=1" type="text/css" />
 
 <!-- Bootstrap css-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
 </head>
-
 
 <header>
 
 <div class="bord"> <p>border</p></div>
 
+ <img src="C:\Users\pc\Documents\Rera\Pictures\MainLogo2.PNG" alt="facebook" width="115" height="134">
 <nav class="navbar navbar-expand-lg navbar-light bg-light;">
-  <img src="C:\Users\pc\Documents\Rera\Pictures\MainLogo2.PNG" alt="facebook" style="padding-top: 18px"> 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <img src="" alt="" width="115" height="134">
+  
+  <!-- Menu button, hidden for bigger screens -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"id="btn">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -116,12 +118,76 @@
   </div>
 </nav>
 
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Why AF languages</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Courses</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Universe</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Links</a>
+  
+
+</nav>
+
 </header>
 
 <body>
 
 <div id="content">
-<h1>Boost your linguistic universe with African languages</h1>
+<h2>Boost your linguistic universe with African languages</h2>
+
+<div class="slideShow">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="C:\Users\pc\Documents\Rera\Pictures\girl.jpg" style="width:100%">
+  <div class="text">1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="C:\Users\pc\Documents\Rera\Pictures\mina.jpg" style="width:100%">
+  <div class="text">2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C:\Users\pc\Documents\Rera\Pictures\parent.jpg" style="width:100%">
+  <div class="text">3</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 
 <div id="paragraph1">
 <h3>What is Lorem Ipsum?</h3>
@@ -156,7 +222,6 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </div>
 
 </div>
-
 </body>
 
 <footer>
@@ -176,7 +241,7 @@ About Rera Languague School</p>
   <a href="#" alt="Facebook"><img src="C:\Users\pc\Documents\Rera\Pictures\Youtube.PNG" alt="facebook" width="30px" height="30px"></a>
    <a href="#" alt="Facebook"><img src="C:\Users\pc\Documents\Rera\Pictures\in.PNG" alt="facebook" width="30px" height="30px"></a>
 </div>
-  
+
 <div class="bord"> <p>border</p></div>
 </footer>
 

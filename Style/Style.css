@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+    box-sizing: border-box;
+}
+
 html{
 	background: URL('C:\Users\pc\Documents\Rera\Pictures\bkgd.PNG');
 	background-color: #b3ffe8;
@@ -73,10 +77,10 @@ body{
 position: relative;
 background-color: #f1f2ec;
 font-family: Segoe UI;
-left: 5%;
-right: 5%;
+left: 10%;
+right: 10%;
 top: 10px;
-width: 90%;
+width: 80%;
 height: auto;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -162,7 +166,7 @@ body #content #paragraph4{
 	height: auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-left: 290px;
+	margin-left: 27.5%;
 	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 70px;
@@ -199,7 +203,7 @@ footer .bord {
 	background: linear-gradient(to right, #f6df0a 20%, #e5007d 20%, #ff5000 50%, #00a9aa 50%, #76b82a 80%, #f6df0a 80%);
   position: relative;
   content: '';
-  height: 5px;
+  height: 5%;
   right: 0;
   left: 0;
   bottom: -15px;
@@ -247,8 +251,8 @@ footer .icons a img:hover{
 
 footer #footLogo img{
 	position: relative;
-	margin-left: 287px;
-	margin-right: auto;
+	margin-left: 28.5%;
+	margin-right: 30.5%;
 	top: 10px;
 }
 
