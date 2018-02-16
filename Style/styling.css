@@ -124,8 +124,21 @@ header .navbar ul{
 	left: 1%;
 }
 
+header .navbar ul li a{
+	position: relative;
+	text-align: center;
+	
+}
+
 header .navbar ul li a:hover{
 	opacity: 0.5;
+}
+
+header .navbar ul li .dropdown-menu a{
+	position: relative;
+    word-wrap: break-word;
+	word-break: break-all;
+	white-space:normal;
 }
 
 header .navbar ul li .dropdown-menu a:hover{
@@ -133,8 +146,11 @@ header .navbar ul li .dropdown-menu a:hover{
 }
 
 header .navbar ul li .dropdown-menu{
-	position: relative;
-	
+    width: 250%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1px;
+	padding-right: 1px;
 	opacity: 0.95;
 }
 
