@@ -349,7 +349,7 @@ body #content #paragraph4{
 
 footer {
    position: relative;
-   height: 100px;
+   
    left: 0;
    margin-bottom: 0px;
    width: 100%;
@@ -493,4 +493,403 @@ footer #footLogo img{
 	margin-left: 0%;
 	top: 10px;
 }
+}
+
+
+/***********************About Us***************************/
+
+#content .aflang{
+	position: relative;
+	width: 100%;
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	margin-top: 1.5%;
+	color: #00a9aa;
+}
+
+.aflang .popuptext {
+    width: 40%;
+    background-color: #e5007d;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+	top: -35%;
+    left: 65%;
+    margin-left: -80px;
+	padding: 5px;
+}
+
+/* Popup arrow */
+.aflang .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e5007d transparent transparent transparent;
+}
+
+.aflang p span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.abt{
+	position: relative;
+	width: 100%;
+	margin-top: 2%;
+	background-color: #ece9e9;
+	color: #00a9aa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.abt h3{
+	text-align: center;
+	color: #ff5000;
+}
+
+.abt h5{
+	color: #ff5000;
+}
+
+.abt:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.abt .abtPartA{
+	position: relative;
+	width: 60%;
+	height: auto;
+	padding: 20px 40px 0px 40px;
+	float: left;
+}
+
+.abt .abtPartA h6{
+color: #ff5000;
+}
+	
+.abt .abtPartA p span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.abt .abtPartA p{
+	font-size: 16px;
+}
+
+.abt .abtPartB{
+	position: relative;
+	width: 40%;
+	height: auto;
+	float: right;
+	padding: 20px 40px 0px 40px;
+}
+
+.faq{
+	position: relative;
+	width: 100%;
+	margin-top: 2%;
+	background-color: black;
+	opacity: 0.8;
+	color: #00a9aa;
+	padding: 20px 40px 20px 40px;
+}
+
+.faq h3{
+	text-align: center;
+	color: #ff5000;
+}
+
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+	margin-top: 0.5%;
+    padding: 18px;
+    width: 100%;
+	border-radius: 5px;
+    border: 2px solid #ff5000;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p{
+	padding: 10px;
+}
+
+/***********************About Us***************************/
+
+/***********************Courses***************************/
+#course{
+	position: relative;
+	width: 100%;
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	color: #00a9aa;
+	margin-top: 1.5%;
+}
+
+#course h3{
+	color: #ff5000;
+	text-align: center;
+}
+
+#course span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+#method{
+	position: relative;
+	width: 100%;
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	color: #00a9aa;
+	margin-top: 1%;
+}
+
+#method h3{
+	color: #ff5000;
+	text-align: center;
+}
+
+#method span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.courseContent img{
+	position: relative;
+	width: 100%;
+	margin-top: 1%;
+}
+
+.courseContent #quote{
+	background-image: url("C:\Users\pc\Documents\Rera\Pictures\methods.jpg");
+	width: 100%;
+}
+
+.courseContent #quote p{
+	position: absolute;
+	width: 25%;
+	background-color: grey;
+	padding: 10px;
+	opacity: 0.5;
+	border-radius: 5px;
+	color: white;
+	top: 65%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+	font-family: chiller;
+	font-size: 32px;
+}
+
+/***********************Courses***************************/
+
+/***********************Children***************************/
+.children{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #e5007d; 
+	margin-top: -4%;
+	margin-bottom: 2%;
+	padding: 20px 40px 20px 40px;
+	background: linear-gradient(rgba(230,0,126,2), rgba(0,0,0,2));
+}
+
+
+/*.children #childImg{
+	position: relative; 
+  top: 0; 
+  left: 0; 
+	
+   Preserve aspet ratio 
+ max-width: 100%;
+    height: auto;
+}*/
+
+.children  h3{
+	color: #000;
+	text-align: center;
+}
+
+.children p{
+	color: white;
+}
+
+.children p span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.children p #kids{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.children a{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	margin: 5px 20px 20px 20px;
+	float: right;
+	color: white;
+}
+
+.children a img{
+	
+    box-shadow: 0 10px 18px 0 rgba(255, 221, 0, 0.7), 0 13px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.children #cls{
+	position: relative;
+	border-radius: 45px;
+}
+
+.children p:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#break{
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*235 237 225
+#ebede1
+
+130 127 56
+#827f38*/
+
+/***********************Children***************************/
+/***********************Adults***************************/
+.adults{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #e5007d; 
+	margin-top: 1%;
+	margin-bottom: 2%;
+	padding: 20px 40px 20px 40px;
+	background: linear-gradient(rgba(118,184,42,2), rgba(0,0,0,2));
+}
+
+.adults  h3{
+	color: #000;
+	text-align: center;
+}
+
+.adults p{
+	color: white;
+}
+
+.adults p span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.adults p #adlt{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adults a{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	margin: 5px 40px 20px 40px;
+	float: right;
+	color: white;
+}
+
+.adults a img{
+	
+    box-shadow: 0 10px 18px 0 rgba(255, 221, 0, 0.7), 0 13px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adults #cls{
+	position: relative;
+	border-radius: 45px;
+}
+
+.adults p:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/***********************Adults***************************/
+
+.theModal{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: white;
 }

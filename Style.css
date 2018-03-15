@@ -1,0 +1,314 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: URL('C:\Users\pc\Documents\Rera\Pictures\bkgd.PNG');
+    background-color: #b3ffe8;
+}
+
+/**************************************************/
+
+header .bord {
+    background: linear-gradient(to right, #f6df0a 20%, #e5007d 20%, #ff5000 50%, #00a9aa 50%, #76b82a 80%, #f6df0a 80%);
+    position: static;
+    content: '';
+    height: 5px;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+
+
+floted stuff
+
+body .content .paragraph2 {
+            position: relative;
+            width: 100%;
+            height: auto;
+            background: linear-gradient(rgba(255,0,0,0), rgba(233,236,236,2));
+            padding: 20px 40px 20px 40px;
+            border-radius: 2px;
+            box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+     
+            .content .paragraph2 h5{
+                text-align: center;
+            }
+
+.content .paragraph2 #part {
+    position: relative;
+    width: 22%;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+}
+
+.paragraph2:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+            .content .paragraph2 #part2 {
+                position: relative;
+                width: 23%;
+                height: auto;
+                float: left;
+                left: 2%;
+            }
+
+            .content .paragraph2 #part3 {
+                position: relative;
+                width: 23%;
+                height: auto;
+                float: left;
+                left: 5%;
+            }
+
+            .content .paragraph2 #part4 {
+                position: relative;
+                width: 23%;
+                height: auto;
+                float: left;
+                left: 8.5%;
+            }
+
+
+    header .bord p {
+        visibility: hidden;
+    }
+
+header .navbar {
+    position: relative;
+    background-color: black;
+    height: 50px;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap; /*allow us to do the line break for collapsing content*/
+    align-items: center;
+    justify-content: space-between; /* space out brand from logo*/
+    padding: $navbar-padding-y $navbar-padding-x;
+    /* Because flex properties aren't inherited, we need to redeclare these first
+   few properities so that content nested within behave properly.*/
+    >.container, >.container-fluid
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+}
+
+header .navbar ul {
+    position: relative;
+    left: 30px;
+}
+
+    header .navbar ul li .dropdown-menu a:hover {
+        opacity: 0.7;
+    }
+
+    header .navbar ul li .dropdown-menu {
+        opacity: 0.95;
+    }
+
+header .navbar img {
+    position: relative;
+}
+
+
+
+/**************************************************/
+
+body {
+    position: relative;
+    background-color: #f1f2ec;
+    font-family: Segoe UI;
+    left: 10%;
+    right: 10%;
+    top: 10px;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content {
+    position: relative;
+    padding: 40px;
+    padding-bottom: 60px;
+    top: 50px;
+    height: auto;
+    font-family: Segoe UI;
+    font-size: 14px;
+}
+
+    #content h1 {
+        position: relative;
+        font-family: Segoe UI;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #content #paragraph1 {
+        background-color: #e9ecef;
+        position: relative;
+        width: 95%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+        #content #paragraph1 button {
+            position: relative;
+            left: 45%;
+            background-color: #00a9aa;
+            border-color: #00a9aa;
+        }
+
+    #content #paragraph2 {
+        background-color: #e9ecef;
+        position: relative;
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 25px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+        #content #paragraph2 button {
+            position: relative;
+            left: 45%;
+            background-color: #00a9aa;
+            border-color: #00a9aa;
+        }
+
+body #content #paragraph3 {
+    background-color: #e9ecef;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(229, 0, 125, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content #paragraph3 button {
+    position: relative;
+    left: 45%;
+    background-color: #00a9aa;
+    border-color: #00a9aa;
+}
+
+body #content #paragraph4 {
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 27.5%;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border-left: thin solid #00a9aa;
+    border-right: thin inset #00a9aa;
+}
+
+#paragraph4 button {
+    position: relative;
+    margin-left: 0px;
+    background-color: #00a9aa;
+    border-color: #00a9aa;
+}
+
+/**************************************************/
+
+
+/**************************************************/
+
+footer {
+    overflow: hidden;
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: black;
+    font-size: 12px;
+}
+
+    footer .bord {
+        background: linear-gradient(to right, #f6df0a 20%, #e5007d 20%, #ff5000 50%, #00a9aa 50%, #76b82a 80%, #f6df0a 80%);
+        position: relative;
+        content: '';
+        height: 5%;
+        right: 0;
+        left: 0;
+        bottom: -15px;
+    }
+
+        footer .bord p {
+            visibility: hidden;
+        }
+
+    footer p {
+        position: relative;
+        float: left;
+        color: #999999;
+        top: 35px;
+        padding-left: 20px;
+    }
+
+    footer .icons {
+        position: relative;
+        padding-right: 15px;
+    }
+
+        footer .icons a {
+            position: relative;
+            float: right;
+            bottom: 50px;
+            padding: 5px;
+        }
+
+            footer .icons a img {
+                filter: grayscale(100%);
+                /* IE6-9 */
+                -webkit-filter: grayscale(100%);
+                /* Chrome 19+ & Safari 6+ */
+                -webkit-transition: all .4s ease;
+                /* Fade to color for Chrome and Safari */
+                -webkit-backface-visibility: hidden;
+                /* Fix for transition flickering */
+            }
+
+                footer .icons a img:hover {
+                    filter: none;
+                    -webkit-filter: grayscale(0%);
+                }
+
+    footer #footLogo img {
+        position: relative;
+        margin-left: 28.5%;
+        margin-right: 30.5%;
+        top: 10px;
+    }
+
+
+
+
+/**************************************************/
