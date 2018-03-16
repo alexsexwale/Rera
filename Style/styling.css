@@ -809,7 +809,15 @@ color: #ff5000;
 }
 
 #break{
-	margin-top: 1%;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	margin-top: -1%;
+}
+
+#break img{
+	position: relative;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -827,7 +835,7 @@ color: #ff5000;
 	width: 100%;
 	height: auto;
 	background-color: #e5007d; 
-	margin-top: 1%;
+	margin-top: 0.8%;
 	margin-bottom: 2%;
 	padding: 20px 40px 20px 40px;
 	background: linear-gradient(rgba(118,184,42,2), rgba(0,0,0,2));
@@ -886,6 +894,94 @@ color: #ff5000;
     clear: both;
 }
 /***********************Adults***************************/
+
+/***********************Contact***************************/
+
+.contact{
+	position: relative;
+	width: 100%;
+	height: height;
+	margin-top: -8%;
+	margin-bottom: 1%;
+	padding: 20px 40px 20px 40px;
+	background: radial-gradient(rgba(255,0,0,0), rgba(0,0,0,2));
+	color: white;
+}
+
+.contact hr{
+	position: relative;
+	border-color: black;
+}
+
+.contact p{
+	text-align: center;
+	
+}
+
+.contact p span {
+	position: relative;
+    width: 0.7em;
+    font-size: 300%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+.contact h2{
+	text-align: center;
+	color: #ff5000;
+}
+
+
+.contact:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact form{
+	position: relative;
+	width: 60%;
+	height: auto;
+	float: left;
+	padding-left: 70px;
+	padding-right: 20px;
+}
+
+.contact form button{
+	position: relative;
+	background-color: rgba(255, 0, 0, 0);
+	border-color: #e5007d;
+	border-style: inset;
+	border-width: 0.3px 0.3px 2px 2px;
+	float: right;
+	margin-right: 55px;
+}
+
+.contact form button:hover{
+	position: relative;
+	background-color: #283583;
+	border-color: #283583;
+}
+
+.contact form .form-row{
+	position: relative;
+	padding-left: 15px;
+}	
+
+.contact #contactDet{
+	position: relative;
+	width: 40%;
+	height: auto;
+	float: right;
+	padding-top: 6%;
+	padding-right: 60px;
+}
+
+.contact #contactDet p{
+	position: relative;
+	text-align: center;
+}
+/***********************Contact***************************/
 
 .theModal{
 	position: relative;
